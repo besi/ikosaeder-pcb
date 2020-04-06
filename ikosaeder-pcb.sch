@@ -1,4 +1,170 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x03_Female J1
+U 1 1 5E8B8F58
+P 5400 1650
+F 0 "J1" H 5428 1676 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 5428 1585 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5400 1650 50  0001 C CNN
+F 3 "~" H 5400 1650 50  0001 C CNN
+	1    5400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J2
+U 1 1 5E8BCB5E
+P 5400 2050
+F 0 "J2" H 5428 2076 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 5428 1985 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5400 2050 50  0001 C CNN
+F 3 "~" H 5400 2050 50  0001 C CNN
+	1    5400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J5
+U 1 1 5E8BD131
+P 5450 2450
+F 0 "J5" H 5478 2476 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 5478 2385 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5450 2450 50  0001 C CNN
+F 3 "~" H 5450 2450 50  0001 C CNN
+	1    5450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J3
+U 1 1 5E8BD557
+P 5400 2900
+F 0 "J3" H 5428 2926 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 5428 2835 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5400 2900 50  0001 C CNN
+F 3 "~" H 5400 2900 50  0001 C CNN
+	1    5400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J4
+U 1 1 5E8BDAA6
+P 5400 3400
+F 0 "J4" H 5428 3426 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 5428 3335 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5400 3400 50  0001 C CNN
+F 3 "~" H 5400 3400 50  0001 C CNN
+	1    5400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E8BF4F4
+P 5200 1550
+F 0 "#PWR?" H 5200 1400 50  0001 C CNN
+F 1 "+5V" H 5215 1723 50  0000 C CNN
+F 2 "" H 5200 1550 50  0001 C CNN
+F 3 "" H 5200 1550 50  0001 C CNN
+	1    5200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E8BFE49
+P 5200 1950
+F 0 "#PWR?" H 5200 1800 50  0001 C CNN
+F 1 "+5V" H 5215 2123 50  0000 C CNN
+F 2 "" H 5200 1950 50  0001 C CNN
+F 3 "" H 5200 1950 50  0001 C CNN
+	1    5200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E8C033E
+P 5250 2350
+F 0 "#PWR?" H 5250 2200 50  0001 C CNN
+F 1 "+5V" H 5265 2523 50  0000 C CNN
+F 2 "" H 5250 2350 50  0001 C CNN
+F 3 "" H 5250 2350 50  0001 C CNN
+	1    5250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E8C085D
+P 5200 2800
+F 0 "#PWR?" H 5200 2650 50  0001 C CNN
+F 1 "+5V" H 5215 2973 50  0000 C CNN
+F 2 "" H 5200 2800 50  0001 C CNN
+F 3 "" H 5200 2800 50  0001 C CNN
+	1    5200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E8C127D
+P 5200 3300
+F 0 "#PWR?" H 5200 3150 50  0001 C CNN
+F 1 "+5V" H 5215 3473 50  0000 C CNN
+F 2 "" H 5200 3300 50  0001 C CNN
+F 3 "" H 5200 3300 50  0001 C CNN
+	1    5200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E8C1A0E
+P 5200 2150
+F 0 "#PWR?" H 5200 1900 50  0001 C CNN
+F 1 "GND" H 5205 1977 50  0000 C CNN
+F 2 "" H 5200 2150 50  0001 C CNN
+F 3 "" H 5200 2150 50  0001 C CNN
+	1    5200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E8C2253
+P 5200 1750
+F 0 "#PWR?" H 5200 1500 50  0001 C CNN
+F 1 "GND" H 5205 1577 50  0000 C CNN
+F 2 "" H 5200 1750 50  0001 C CNN
+F 3 "" H 5200 1750 50  0001 C CNN
+	1    5200 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E8C2FB4
+P 5250 2550
+F 0 "#PWR?" H 5250 2300 50  0001 C CNN
+F 1 "GND" V 5255 2422 50  0000 R CNN
+F 2 "" H 5250 2550 50  0001 C CNN
+F 3 "" H 5250 2550 50  0001 C CNN
+	1    5250 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E8C3BBF
+P 5200 3500
+F 0 "#PWR?" H 5200 3250 50  0001 C CNN
+F 1 "GND" V 5205 3372 50  0000 R CNN
+F 2 "" H 5200 3500 50  0001 C CNN
+F 3 "" H 5200 3500 50  0001 C CNN
+	1    5200 3500
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
