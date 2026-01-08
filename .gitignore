@@ -1,2 +1,15 @@
 *-cache
 *-bak
+secrets.py
+webrepl_cfg.py
+fabrication-toolkit*
+/fp-info-cache
+/*-backups
+/*.kicad_prl
+/gerber
+/production
+*.zip
+*.lck
+*.bak
+/pcb/plot
+*.lbrn*
